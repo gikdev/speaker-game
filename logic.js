@@ -11,8 +11,10 @@ speaker.addEventListener('click', e => {
 
 changeMusicBtn.addEventListener('click', e => {
   audio.pause()
+  speaker.classList.add('stopped')
   audio.setAttribute('src', chooseRandomAudio())
   audio.play()
+  speaker.classList.remove('stopped')
 })
 
 
