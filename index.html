@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>بازی اسپیکر</title>
+  <link rel="icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABMLAAATCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ0Avb2M1I0NDQCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5czMCtvYzUjQ0NALAAAAAAAAAADb187E3NjP/9zXzs7h0tIRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1NTUBtzYz8Dc2M//29fOwgAAAAAAAAAA3NjP+9zYz//c2M//3NfOz9zc0BYAAAAAAAAAAAAAAAAAAAAA//+qA9zXzqnc2M//3NjP/9zYz/sAAAAAAAAAANzYzvLc2M//3NjP/9zYz//c18/q29jOrdzYz6rc2M+q3NjPqtvYztPc2M//3NjP/9zYz//c2M7yAAAAAAAAAADb2M7Y3NjP/9zYz/+xqJT/zsm8/9zYz//c2M//3NjP/9zYz//k5N3/1ezf/+Dd1f/c2M//29fP1wAAAAAAAAAA3NjOudXQxf/HwLL/saiU/8C4qP/Oybz/3NjP/9zYz//o5d//2fLm/2rOn//7+vn/4d3V/9zYzrgAAAAAAAAAANzYzpPHwLL/nJB4/9zYz/+xqJT/saiU/9zYz//g3dX/+cmN//nJjv//////WWT2/9HS9P/c2M6TAAAAAAAAAADb2M9W3NjP/9zYz/+ckHj/x8Cy/9zYz//c2M//3NjP//Pn1//l7eb/gd///9bZ/P/j4eD/29jPVgAAAAAAAAAA5czMCtvYzu7c2M//x8Cy/9XQxf/c2M//3NjP/9zYz//c2ND/1+zw/4Df///p5uD/29fO79DQ0AsAAAAAAAAAAAAAAADa2M5j3NjP/9zYz//c18/r29jOrdfSyLPX0ce029fPvNzYzvng3dX/3NjP/9rYzmMAAAAAAAAAAAAAAAAAAAAAAAAAAN3YzjXd1s5F4uLGCQAAAAB5bFIoem1UmnFxVQnd3cwP29fQR9zXzTQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHhuU0x5blOkem5UrXltVJd/ZkwKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB7b1I+em1UhQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf39/AnhvUzcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAI/xAACH4QAAg8EAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAMADAADiBwAA/wcAAP/nAAD/5wAA//8AAA==" type="image/x-icon">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./logic.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <span>بازی اسپیکر</span>
+      <button id="change-music-btn">
+        <i class="ph-duotone ph-arrow-clockwise"></i>
+      </button>
+    </nav>
+  </header>
+  <main>
+    <img class="stopped" src="./speaker.png" alt="اسپیکر">
+  </main>
+  <footer>
+    <span>
+      <i class="ph-duotone ph-code"></i>
+      <a href="https://github.com/gikdev/">بهرامی</a>
+    </span>
+    <span>
+      <i class="ph-duotone ph-globe"></i>
+      <a href="https://kashoob.com/">کاشوب</a>
+    </span>
+  </footer>
+  <audio 
+    loop 
+    src="https://mir1.kashoob.com/audio/202212/enc_16704920669072276211589.mp3" 
+    id="audio"
+  ></audio>
+</body>
+</html>
